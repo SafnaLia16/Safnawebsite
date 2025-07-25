@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(157, 206, 219);
+}
+
+h1 {
+  color: rgb(8, 2, 2);
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: rgb(223, 30, 104);
+}
+
+h2 {
+  font-family: cambria;
+  font-size: 25px;
+  color: rgba(17, 135, 199, 0.982);
+}
+
+blockquote{
+  font-family: Georgia;
+  color:rgb(191, 214, 15);
+  font-style: italic;
+  text-align: justify;
+}
+
+.highligh {
+  color: rgb(211, 153, 7);
+}
+
+.tombol {
+  padding: 12px 24px;
+  font-size: 20px;
+  color: rgb(158, 202, 13);
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: backgroand-color 0.3s;
+}
+
+.tombol:hover{
+  background-color: darkgoldenrod;
+  transition: scale(1.1);
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  text-align: center;
+}
